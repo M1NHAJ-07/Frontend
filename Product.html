@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Showcase</title>
+</head>
+<body>
+<header Align="center">
+    <h1>Our Exclusive Product Collection</h1>
+    <p>Welcome to our product showcase! Browse through our premium collection.</p>
+</header>
+<nav Align="center">
+    <a>Products</a> | 
+    <a>Product Details</a> | 
+    <a>Media</a> | 
+    <a>Feedback</a>
+</nav>
+<section id="products" Align="center">
+    <h2>Product List</h2>
+    <div>
+        <!-- Product Data Table -->
+        <table Border="1" width="800" Hight="200" Align="center">
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>Vivo X200</td>
+                <td>$25</td>
+                <td>Electronics</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td>Blender Pro 450</td>
+                <td>$40</td>
+                <td>Home Appliance</td>
+                <td>Out of Stock</td>
+            </tr>
+            <tr>
+                <td>Leather Wallet</td>
+                <td>$15</td>
+                <td>Accessories</td>
+                <td>In Stock</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!-- Product Details -->
+<section id="details" Align="center">
+    <h2>Product Details</h2>
+    <div>
+        <dl>
+            <dt>Vivo X200</dt>
+            <dd>High-quality electronics with excellent durability.</dd>
+
+            <dt>Blender Pro 450</dt>
+            <dd>Energy-efficient home appliance for modern homes.</dd> 
+
+            <dt>Leather Wallet</dt>
+            <dd>Trendy accessories to complement your style.</dd>
+        </dl>
+    </div>
+</section>
+
+<!-- Media Section -->
+<section id="media" Align="center">
+    <h2>Product Gallery</h2>
+    <div class="product-gallery">
+        <h4>Vivo X200</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6OLl2bSLEcJApPCyNKg8v6I-EwX4hNKw79Q&s" width="350" height="350" alt="Vivo X200">
+
+        <h4>Blender Pro 450</h4>
+        <img src="https://www.sibler.com/temp/compressed_resize_980x980_produktbilder_Z_z04_z04-5050-02_5.jpg" width="350" height="350" alt="Blender Pro 450">
+
+        <h4>Leather Wallet</h4>
+        <img src="https://www.glidinggearcompany.com/cdn/shop/files/1_57295d84-e2a5-4a24-87b5-aa68d0ab0ade.png?v=1686670525&width=1445" width="350" height="350" alt="Leather Wallet">
+    </div>
+
+    <h2>Product Introduction Video</h2>
+    <iframe src="https://www.youtube.com/embed/example_video_id" width="100%" height="315" allowfullscreen></iframe>
+</section>
+
+<!-- User Feedback Form -->
+<section id="feedback" Align="center"width: 100%;
+padding: 10px;
+margin: 5px 0;
+border: 1px>
+    <h2>Feedback Form</h2>
+    <form class="feedback-form" action="/submit_feedback" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+
+        <label for="rating">Rating:</label>
+        <select name="Rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+
+        </select>
+        <br>
+        <br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</section>
+<br>
+<br>
+
+<!-- Footer -->
+<footer Align="center">
+    <p>Hurry before stocks runs out!</p>
+</footer>
+
+</body>
+</html>

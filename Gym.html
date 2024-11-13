@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Gym Registration Form</title>
+</head>
+<body>
+
+<h2>Gym Registration Form</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_arA77uu7GzIgKtUc8r9Bn5Ij8GzVejDDa8s5v5tHb47KbCsfLVYYDum8aS3EhPaARNs&usqp=CAU">
+<form action="/submit-registration" method="post">
+
+    <!-- Full Name Field -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name">
+    <br><br>
+
+    <!-- Age Field -->
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+    <br><br>
+
+    <!-- Gender Selection -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    <!-- Membership Type Selection -->
+    <p>Membership Type:</p>
+    <input type="radio" id="monthly" name="membership" value="monthly">
+    <label for="monthly">Monthly</label>
+    <input type="radio" id="quarterly" name="membership" value="quarterly">
+    <label for="quarterly">Quarterly</label>
+    <input type="radio" id="yearly" name="membership" value="yearly">
+    <label for="yearly">Yearly</label>
+    <br><br>
+
+    <!-- Workout Preferences -->
+    <p>Workout Preferences:</p>
+    <input type="checkbox" id="cardio" name="preferences" value="cardio">
+    <label for="cardio">Cardio</label>
+    <input type="checkbox" id="strength" name="preferences" value="strength">
+    <label for="strength">Strength Training</label>
+    <input type="checkbox" id="yoga" name="preferences" value="yoga">
+    <label for="yoga">Yoga</label>
+    <input type="checkbox" id="swimming" name="preferences" value="swimming">
+    <label for="swimming">Swimming</label>
+    <input type="checkbox" id="group" name="preferences" value="group">
+    <label for="group">Group Classes</label>
+    <br><br>
+
+    <!-- Contact Information -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+    <br><br>
+
+    <!-- Emergency Contact -->
+    <p>Emergency Contact:</p>
+    <label for="emergency-name">Name:</label>
+    <input type="text" id="emergency-name" name="emergency_name">
+    <br><br>
+
+    <label for="emergency-phone">Phone Number:</label>
+    <input type="tel" id="emergency-phone" name="emergency_phone">
+    <br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
